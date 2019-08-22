@@ -1,0 +1,8 @@
+.cg-list {
+    padding-left: $spacing-xxs;
+
+    &__item {
+        line-height: $line-height-list;
+        margin-bottom: $spacing-xxs;
+    }
+}

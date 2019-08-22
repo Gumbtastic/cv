@@ -1,0 +1,40 @@
+.cg-drawer {
+    position: relative;
+    height: 100%;
+    width: 10px;
+    border: {
+        style: $border-style-default;
+        color: $border-color-default;
+        left-width: $border-width-default;
+        right-width: $border-width-default;
+        top-width: 0;
+        bottom-width: 0;
+    }
+    padding: 1px;
+
+    &__left-button,
+    &__right-button {
+        position: absolute;
+        width: 38px;
+        height: 100%;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color .3s ease-in-out;
+
+        &:hover {
+            background-color: rgba(255,255,255, .1);
+        }
+    }
+
+    &__left-button {
+        left: -39px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    &__right-button {
+        right: -39px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}

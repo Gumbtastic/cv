@@ -1,0 +1,67 @@
+.cg-content {
+    position: relative;
+    max-width: 1440px;
+    margin: {
+        top: 0;
+        right: auto;
+        bottom: $spacing-xl;
+        left: auto;
+    }
+    overflow: hidden;
+
+    @media screen and (max-width: 1440px) {
+        padding: {
+            left: $spacing-xs;
+            right: $spacing-xs;
+        }
+    }
+
+    &__left,
+    &__right {
+        width: 100%;
+        padding: 0;
+    }
+
+    &__left { 
+        padding-right: calc(10% - 10px);
+    }
+
+    &__center-column {
+        width: 10px;
+        flex-grow: 0;
+        padding: 0;
+    }
+
+    &__right { 
+        padding-left: calc(10% - 10px);
+    }
+
+    @media screen and (min-width:769px) {
+        &--2columns {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: stretch;
+    
+            & > * {
+                flex-grow: 1;
+                width: 50%;
+                padding: {
+                    left: $spacing-s;
+                    right: $spacing-s;
+                }
+    
+                &:nth-child(even) {
+                    padding-right: 0;
+                }
+    
+                &:nth-child(odd) {
+                    padding-left: 0;
+                }
+    
+                &:last-child {
+                    flex-grow: 0;
+                }
+            }
+        }
+    }
+}

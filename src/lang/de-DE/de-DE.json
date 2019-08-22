@@ -1,0 +1,378 @@
+{
+  "designTools": [{
+      "src": "images/ps.png",
+      "title": "Photoshop"
+    },
+    {
+      "src": "images/indesign.png",
+      "title": "InDesig"
+    },
+    {
+      "src": "images/sketch.png",
+      "title": "Sketch"
+    },
+    {
+      "src": "images/invisionStudio.png",
+      "title": "Invision Studio"
+    }
+  ],
+  "designFamiliar": [{
+      "src": "images/lightroom.png",
+      "title": "Lightroom"
+    },
+    {
+      "src": "images/invision.png",
+      "title": "Invision"
+    },
+    {
+      "src": "images/analytics.png",
+      "title": "Analytics"
+    },
+    {
+      "src": "images/wp.png",
+      "title": "Wordpress"
+    }
+  ],
+  "designSkills1": {
+    "0": "Wireframes",
+    "1": "Prototypes",
+    "2": "High-Res Mockups",
+    "3": "Documetation"
+  },
+  "designSkills2": {
+    "0": "Interface Design",
+    "1": "Webdesign",
+    "2": "Mobile App Design",
+    "3": "Styleguides"
+  },
+  "dCanDo1": {
+    "0": "Web Ad Design",
+    "1": "Print Design",
+    "2": "Product Shoots",
+    "3": "Photo Editing"
+  },
+  "dCanDo2": {
+    "0": "Business Cards",
+    "1": "Printmaking"
+  },
+  "designProjects": [{
+      "src": "images/real.png",
+      "title": "real.de",
+      "project": "dProject1"
+    },
+    {
+      "src": "images/rf.png",
+      "title": "REWE Foto",
+      "project": "dProject2"
+    },
+    {
+      "src": "images/moment.png",
+      "title": "Der Moment",
+      "project": "dProject3"
+    },
+    {
+      "src": "images/mf.png",
+      "title": "meinfoto.de",
+      "project": "dProject4"
+    }
+  ],
+  "dProject1": {
+    "title": "real.de Website",
+    "text": {
+      "0": "Die real.de Website besteht aus vier verschiedenen Services. Meine Aufgaben bezogen sich innerhalb dieses Projektes auf den Marktplatz. Hier habe ich zuerst an dem Relaunch der Startseite mitgewirkt. Im detail habe ich hier Hauptsächlich an der Umsetzung des großen \"Hero\" Bereichs gearbeitet und auch bei der gestaltung der neuen Marketing Werbemittel ausgeholfen.",
+      "1": "Als ein kleines Nebenprojekt wurde mir die komplette Überarbeitung der \"Refinement Filter\" auf der Prouktkategorie- oder Produktsuche-Seite für mobile Geräte zugeteilt. Hier lag das größte Problem für Nutzer darin, dass die Filter alle in einem Akkordion untereinander platziert waren und nach jeder Eingabe die Website neu geladen wurde. Um dies zu lösen habe ich die Filter alle in ein Overlay gelegt und jedem Filter eine eigene Ebene/Seite innerhalb des Overlays gegeben. Zusätzlich ist es nun möglich mehrere Filter gleizeitig auszuwählen.",
+      "2": "Ein weiteres sehr interessantes Projekt war der Checkout. Hier habe ich in Zusammenarbeit mit zwei weiteren Kollegen den Bestellprozess komplett überdacht und neugestaltet. Hier lagen die Probleme für den Kunden darin, dass die Adresseingabe sowie die Pflicht zur Registration unübersichtlich waren und schließlich den versteckte Kaufen-Button zu finden. In der aktuellen Version sind all diese Probleme behandelt, indem wir einen deutlichen Schritt mit einer Anmeldung/Registrierung vor die Adresseingabe gelegt haben. Außerdem legten wir den Kaufen-Button unter die Bezahlmethoden, anstelle ihn an jede Bezahlmethode zu knüpfen, innerhalb einen Akkordion-Panels."
+    },
+    "list": {
+      "0": "Konzepte für neue Prozesse und Komponenten",
+      "1": "Wireframes von Layouts und Komponeten",
+      "2": "Mockups von Layouts und Komponenten",
+      "3": "HTML/CSS Prototypen für die Entwicklung"
+    },
+    "link": "https://real.de",
+    "images": [{
+        "src": "images/dp_real1.png"
+      },
+      {
+        "src": "images/dp_real2.png"
+      },
+      {
+        "src": "images/dp_real3.png"
+      }
+    ]
+  },
+  "dProject2": {
+    "title": "REWE Foto",
+    "text": {
+      "0": "REWE Foto ist ein Projekt, welches auf der White-Label Lösung der Picanova Group beruht. Über diesem Shop ist es dem Nutzer möglich diverse personalisierte Deko- und Lifestyle-Produkte zu bestellen. Der Nutzer kann ein eigenes Foto hochladen und es auf die Produkte drucken lassen sowie weiterhin mit texten und Grafiken personalisieren. Meine Aufgaben lagen zuerst bei der kompletten Gestaltung der UI und der Werbemittel unter der Beachtung der REWE Group CI.",
+      "1": "Nach dem Launch des Shops habe ich fortlaufend die Monatlichen und Wöchentlich Werbemittel für alle digitalen und Print-Channel gestaltet. Dies waren unter anderem Landingpages, Newsletter, Print-Anzeigen etc.",
+      "2": "Nach gut einem Jahr wurde mir die komplette Verantwortung über dieses Projekt übertragen. Somit erweiterte sich mein Aufgabenbereich um die allgemeine Projektleitung, die Konzeption der Marketing-Maßnahmen sowie dem Reporting über den Erfolg des Shops an die REWE Group erweitert."
+    },
+    "list": {
+      "0": "Gestaltung des Webshops unter Beachtung der CI",
+      "1": "Umsetzug von Werbemittel für alle Channel",
+      "2": "Projektleitung und Marketing"
+    },
+    "link": "https://www.foto.rewe.de",
+    "images": [{
+        "src": "images/dp_rf1.png"
+      },
+      {
+        "src": "images/dp_rf2.png"
+      },
+      {
+        "src": "images/dp_rf3.png"
+      }
+    ]
+  },
+  "dProject3": {
+    "title": "Der Moment",
+    "text": {
+      "0": "\"DER Moment\" war eine App mit denen Nutzer sich während ihrer Reise eine Reisefotobuch zusammenstellen, sowie Postkarten versenden konnten. Hierzu nahm der Nutzer Fotos auf seiner Reise auf und konnte noch unterwegs sich ein Fotobuch zusammenstellen, nach Hause bestellen und eine Postkarte an Freunde & Familie schicken.",
+      "1": "Ich übernahm bei diesem Projekt vornehmlich die Konzeption der UX und den User-Flow durch die App. Weiter erstellte ich Wireframes und Mockups für die Entwicklung.",
+      "2": "Abschließend führte ich diverse Test für UX, Performance und Gerätekompatibilität aus bevor die App auf den Markt ging. Leider wurde diese App inzwischen wieder vom Markt genommen."
+    },
+    "list": {
+      "0": "Konzeption der UX und User-Flows",
+      "1": "Gestaltung von Wireframes und Mockups",
+      "2": "Quality Assurence"
+    },
+    "link": "",
+    "images": [{
+        "src": "images/dp_mo1.png"
+      },
+      {
+        "src": "images/dp_mo2.png"
+      },
+      {
+        "src": "images/dp_mo3.png"
+      }
+    ]
+  },
+  "dProject4": {
+    "title": "meinfoto.de Website",
+    "text": {
+      "0": "\"meinfoto.de\" ist die Hauptmarke der Picanova Group. Über diesem Shop ist es dem Nutzer möglich diverse personalisierte Deko- und Lifestyle-Produkte zu bestellen. Der Nutzer kann ein eigenes Foto hochladen und es auf die Produkte drucken lassen sowie weiterhin mit texten und Grafiken personalisieren. Für diese Marke sollte ich eine responsive Lösung gestalten.",
+      "1": "Für diese Aufgabe gestaltete ich einige Komponenten neu und erstellte detailierte Mockups für dieverse Viewports. Für die Entwicklung des neuen Frontends wurde eine Agentur beauftragt für die ich als zusätzlicher Ansprechpartner bei der Umsetzung des Designs zur Seite stand.",
+      "2": "Außerdem wurde ich während der Entwicklung des Frontends damit beauftragt neue Produktfotos anzufertigen um daraus wiederverwendbare Mockups für die Werbemittelgestaltung zu erstellen. Hierzu ließ ich Musterprodukte in der Produktion anfertigen und stellte mithilfe eines Kollegen ein Fotostudio zusammen. Nach den Shootings übernahm ich die Fotobearbeitung und erstellte aus den Fotos Photoshop Dataien die entweder mit Smartobjecten und Masken arbeiten oder eine Photoshop Action laufen ließen."
+    },
+    "list": {
+      "0": "Gestaltung von Komponeten",
+      "1": "Responsive Layout Mockups",
+      "2": "Produktfotos Shooting/Bearbeitung",
+      "3": "Photoshop Produkt Mockups"
+    },
+    "link": "#",
+    "images": [{
+        "src": "images/dp_mf1.png"
+      },
+      {
+        "src": "images/dp_mf2.png"
+      },
+      {
+        "src": "images/dp_mf3.png"
+      }
+    ]
+  },
+  "codeTools": [{
+      "src": "images/html5.png",
+      "title": "HTML"
+    },
+    {
+      "src": "images/sass.png",
+      "title": "Sass"
+    },
+    {
+      "src": "images/vue.png",
+      "title": "Vue.js"
+    },
+    {
+      "src": "images/js.png",
+      "title": "JavaScript"
+    }
+  ],
+  "codeFamiliar": [{
+      "src": "images/wp.png",
+      "title": "Wordpress"
+    },
+    {
+      "src": "images/jquery.png",
+      "title": "jQuery"
+    },
+    {
+      "src": "images/gitlab.png",
+      "title": "GitLab"
+    },
+    {
+      "src": "images/jira.png",
+      "title": "Jira"
+    }
+  ],
+  "codeSkills1": {
+    "0": "Single Page Applications (vue)",
+    "1": "Component Development (vue)",
+    "2": "Pattern Librarys",
+    "3": "Static Prototypes"
+  },
+  "codeSkills2": {
+    "0": "Responsive Layouts",
+    "1": "Styleguides"
+  },
+  "cCanDo1": {
+    "0": "Wordpress Themes",
+    "1": "Landingpages",
+    "2": "Newsletter"
+  },
+  "cCanDo2": {
+
+  },
+  "codeProjects": [{
+      "src": "images/real.png",
+      "title": "real.de",
+      "project": "cProject1"
+    },
+    {
+      "src": "images/rf.png",
+      "title": "REWE Foto",
+      "project": "cProject2"
+    },
+    {
+      "src": "images/mf.png",
+      "title": "meinfoto.de",
+      "project": "cProject3"
+    },
+    {
+      "src": "images/github.png",
+      "title": "GitHub Repo",
+      "project": "cProject4"
+    }
+  ],
+  "cProject1": {
+    "title": "real.de",
+    "text": {
+      "0": "Die real.de Website besteht aus vier verschiedenen Services. Meine Aufgaben bezogen sich innerhalb dieses Projektes auf den Marktplatz. ",
+      "1": "Für diese Aufgabe gestaltete ich einige Komponenten neu und erstellte detailierte Mockups für dieverse Viewports. Für die Entwicklung des neuen Frontends wurde eine Agentur beauftragt für die ich als zusätzlicher Ansprechpartner bei der Umsetzung des Designs zur Seite stand.",
+      "2": "Außerdem wurde ich während der Entwicklung des Frontends damit beauftragt neue Produktfotos anzufertigen um daraus wiederverwendbare Mockups für die Werbemittelgestaltung zu erstellen. Hierzu ließ ich Musterprodukte in der Produktion anfertigen und stellte mithilfe eines Kollegen ein Fotostudio zusammen. Nach den Shootings übernahm ich die Fotobearbeitung und erstellte aus den Fotos Photoshop Dataien die entweder mit Smartobjecten und Masken arbeiten oder eine Photoshop Action laufen ließen."
+    },
+    "list": {
+      "0": "Wireframes",
+      "1": "Prototypes",
+      "2": "High-Res Mockups",
+      "3": "Documetation"
+    },
+    "link": "#",
+    "images": [{
+        "src": "images/dp_real1.png"
+      },
+      {
+        "src": "images/dp_real2.png"
+      },
+      {
+        "src": "images/dp_real3.png"
+      }
+    ]
+  },
+  "cProject2": {
+    "title": "REWE Foto",
+    "text": {
+      "0": "REWE Foto ist ein Projekt, welches auf der White-Label Lösung der Picanova Group beruht. Über diesem Shop ist es dem Nutzer möglich diverse personalisierte Deko- und Lifestyle-Produkte zu bestellen. Der Nutzer kann ein eigenes Foto hochladen und es auf die Produkte drucken lassen sowie weiterhin mit texten und Grafiken personalisieren. Für den Launch des Shops war es meine Aufgabe das Frontend zu gestalten.",
+      "1": "Die Shops der Picanova Group nutzen für das Frontend ein eigens etwickeltes Template für das ebenso eigens entwickelte Backend. Dieses Template musste ich an die CI der REWE Group anpassen und an das Backend anknüpfen. Außerdem musste ich den Content wie, texte und Grafiken, in den Shop einpflegen.",
+      "2": "Die genuzten Technologien waren unter anderem: Primefaces, jQuery, xhtml und css3"
+    },
+    "list": {
+      "0": "Anpassungen in xhtml und css3",
+      "1": "Verknüpfung des Backends mit dem Frontend",
+      "2": "Einpflegen des Contents"
+    },
+    "link": "https://foto.rewe.de",
+    "images": [{
+        "src": "images/dp_rf1.png"
+      },
+      {
+        "src": "images/dp_rf2.png"
+      },
+      {
+        "src": "images/dp_rf3.png"
+      }
+    ]
+  },
+  "cProject3": {
+    "title": "meinfoto.de",
+    "text": {
+      "0": "\"meinfoto.de\" ist die Hauptmarke der Picanova Group. Über diesem Shop ist es dem Nutzer möglich diverse personalisierte Deko- und Lifestyle-Produkte zu bestellen. Der Nutzer kann ein eigenes Foto hochladen und es auf die Produkte drucken lassen sowie weiterhin mit texten und Grafiken personalisieren. Für diese sollte ich diverse Landingpages entwickeln",
+      "1": "Diese Landingpages waren Teil unterschiedlichster Werbekampagnen und erforderted verschiedenste zusammestellungen an komponenten. Es sollten hauptsächlich Landingpages für reduzierte Artikel sein, die Hauptsächlich aus einem CTA, Slideshow, Preistabellen und Text bestande. Hin und wieder waren aber auch komplexere formulare einzupfelgen oder andere Komponenten wie ein Menu zur vorauswahl bestimmter Produkteigenschaften, die dann zu einem vordefinierten Produktkonfigurator führten.",
+      "2": "Die genuzten Technologien waren unter anderem: Primefaces, jQuery, xhtml und css3"
+    },
+    "list": {
+      "0": "Umsetzung von Landingpages",
+      "1": "Umsetzung komplexer Komponenten"
+    },
+    "link": "https://meinfoto.de",
+    "images": [{
+        "src": "images/dp_mf1.png"
+      },
+      {
+        "src": "images/dp_mf2.png"
+      },
+      {
+        "src": "images/dp_mf3.png"
+      }
+    ]
+  },
+  "cProject4": {
+    "title": "Mein GitHub Repo",
+    "text": {
+      "0": "Mein persönliches kleines Git Repo. Hier findet man Experimente und Projekte, an denen ich in meiner Freizeit arbeite. Darunter befinden sich zum einen dieser CV aber auch unfertige HTML5 Games oder Apps. Vieles davon habe ich noch nicht der Öffentlichkeit preisgegeben, aber ich arbeite daran mehr Projekte in einen Vorzeigbaren Zustand zu bekommen.",
+      "1": "Auch interessant könnte mein codepen Profil sein:"
+    },
+    "textlink": "https://codepen.io/Gumbtastic",
+    "textlinkName": "codepen.io/Gumbtastic",
+    "list": {
+      "0": "Vue.js Projekte",
+      "1": "HTML5 Games & Apps"
+    },
+    "link": "https://github.com/Gumbtastic",
+    "images": [{
+        "src": "images/placeholder_big.jpg"
+      },
+      {
+        "src": "images/placeholder_big.jpg"
+      },
+      {
+        "src": "images/placeholder_big.jpg"
+      }
+    ]
+  },
+  "contact": [{
+      "src": "images/xing.png",
+      "title": "Xing",
+      "link": "https://www.xing.com/profile/Christian_Gumbert/cv",
+      "target": "_blank"
+    },
+    {
+      "src": "images/linkedin.png",
+      "title": "linkedIn",
+      "link": "https://www.linkedin.com/in/christian-gumbert-ab4483110",
+      "target": "_blank"
+    },
+    {
+      "src": "images/mail.png",
+      "title": "E-Mail",
+      "link": "mailto:cgumbert@gmx.net",
+      "target": "_top"
+    }
+  ],
+  "companys": [{
+      "src": "images/picanova.png",
+      "title": "Picanova GmbH",
+      "link": "https://company.picanova.com/",
+      "target": "_blank"
+    },
+    {
+      "src": "images/realdigital.png",
+      "title": "real.digital",
+      "link": "https://www.real-digital.de/",
+      "target": "_blank"
+    }
+  ]
+}

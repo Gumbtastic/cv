@@ -1,0 +1,117 @@
+.cg-modal {
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.9);
+
+    &__container {
+        display: flex;
+        flex-wrap: nowrap;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 80vw;
+        max-width: 1440px;
+        height: calc(90vw - 100vh);
+        max-height: 90vh;
+        margin-top: calc(calc(90vw - 100vh) / -2);
+        transform: translateX(-50%);
+
+        @media screen and (max-width: 1440px) {
+            flex-direction: column;
+            height: 90vh;
+            margin-top: calc(90vh / -2);
+
+            &::after {
+                content: '';
+                display: block;
+                width: 100%;
+                height: 32px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background-image: linear-gradient(rgba(24,24,24,0), #181818);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            top: 0;
+            //left: 0;
+            width: 100vw;
+            margin-top: 0;
+            margin-left: 0;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        width: 48px;
+        height: 48px;
+        font-size: $font-size-s;
+        line-height: 48px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    &__left {
+        width: 100%;
+        max-width: calc(90vw - 100vh);
+        background-color: $black;
+
+        @media screen and (max-width: 1440px) {
+            max-width: 80vw;
+            max-height: 55vh;
+            overflow: hidden;
+            height: 100%;
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+
+    &__right {
+        position: relative;
+        max-width: calc(80vw - calc(90vw - 100vh));
+        padding: $spacing-s;
+        background-color: #181818;
+        overflow-y: auto;
+
+        @media screen and (max-width: 1440px) {
+            max-width: initial;
+            width: initial;
+        }
+
+        @media screen and (max-width: 768px) {
+            max-height: 35vh;
+        }
+
+        &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: $black;
+        }
+
+        &::-webkit-scrollbar {
+            width: 6px;
+            background-color: $gray-dark;
+        }
+
+        &::-webkit-scrollbar-thumb
+        {
+            background-color: $gray-dark;
+        }
+    }
+
+    &__bg-close {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
+}

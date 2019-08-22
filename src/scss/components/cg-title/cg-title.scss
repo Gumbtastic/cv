@@ -1,0 +1,19 @@
+.cg-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: $font-size-m;
+    font-weight: $font-weight-bold;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-bottom: $spacing-xxs;
+    margin-bottom: $spacing-s;
+    border-bottom: {
+        width: $border-width-default;
+        style: $border-style-default;
+        color: $border-color-default;
+    }
+
+    @media screen and (max-width: 414px) {
+        font-size: $font-size-s;
+        margin-bottom: $spacing-xs;
+    }
+}

@@ -1,0 +1,27 @@
+.cg-image {
+    position: relative;
+
+    &--thumbnail {
+        width: $thumbnail-size;
+        height: $thumbnail-size;
+        
+        @media screen and (max-width: 414px) {
+            width: $thumbnail-size-s;
+            height: $thumbnail-size-s;
+        }
+    }
+
+    &--link {
+        cursor: pointer;
+    }
+
+    &--round {
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+    }
+}

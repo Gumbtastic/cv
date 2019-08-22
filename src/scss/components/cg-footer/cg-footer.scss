@@ -1,0 +1,10 @@
+.cg-footer {
+  height: 64px;
+  padding: $spacing-s;
+  border-top: {
+    style: $border-style-default;
+    width: $border-width-default;
+    color: $border-color-default;
+  }
+  text-align: right;
+}

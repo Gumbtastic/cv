@@ -1,0 +1,44 @@
+.cg-hero {
+    padding-top: $spacing-l;
+    padding-bottom: $spacing-xxl;
+    text-transform: uppercase;
+    background: linear-gradient(#000, rgba(0,0,0,0));
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        max-width: 1440px;
+        margin: 0 auto;
+
+        @media screen and (max-width: 1440px) {
+            margin: {
+                left: $spacing-xs;
+                right: $spacing-xs;
+            }
+        }
+    }
+
+    &__image {
+        max-width: 360px;
+        line-height: 0;
+        margin-bottom: $spacing-xs;
+    }
+
+    &__name {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: $font-size-l;
+        white-space: nowrap;
+
+        @media screen and (max-width: 768px) {
+            font-size: $font-size-m;
+            white-space: normal;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 414px) {
+            font-size: $font-size-s;
+        }
+    }
+}

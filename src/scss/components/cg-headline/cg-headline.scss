@@ -1,0 +1,24 @@
+.cg-headline {
+    width: 40vw;
+    font-family: 'Oswald', sans-serif;
+    font-size: $headline-size-l;
+    line-height: $line-height-headline;
+
+    &--right {
+        text-align: right;
+        white-space: pre-wrap; 
+        word-wrap: break-word;
+    }
+
+    @media screen and (max-width: 1024px) {
+        font-size: $headline-size-m;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: $headline-size-s;
+    }
+
+    @media screen and (max-width: 414px) {
+        font-size: $headline-size-xs;
+    }
+}

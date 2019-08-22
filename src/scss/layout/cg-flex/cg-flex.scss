@@ -1,0 +1,24 @@
+.cg-flex {
+    display: flex;
+    flex-wrap: nowrap;
+
+    &--wrap {
+        flex-wrap: wrap;
+    }
+}
+
+.cg-flex__item {
+    flex-grow: 1;
+    padding: $spacing-xs;
+    transition: {
+        property: width;
+        duration: .3s;
+        timing-function: ease-in-out;
+    }
+
+    &--centered {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
