@@ -8,20 +8,20 @@
       <transition name="slide-fade-left">
         <div v-if="showContentLeft" class="cg-flex__item cg-content__left"
           :class="{ 'cg-content--2columns': currentDrawerPosition !== 'center' }">
-          <cg-thumbnails title="Primary Tools"
+          <cg-thumbnails title="Werkzeuge"
             :images="data.designTools"
             centered />
-          <cg-thumbnails title="Familiar with"
+          <cg-thumbnails title="Weitere"
             :images="data.designFamiliar"
             centered />
-          <cg-listings title="Primary work"
+          <cg-listings title="Fähigkeiten"
             :list1="data.designSkills1"
             :list2="data.designSkills2" />
-          <cg-listings title="can also do"
+          <cg-listings title="Weitere"
             :list1="data.dCanDo1"
             :list2="data.dCanDo2" />
           <cg-thumbnails
-            title="Projects"
+            title="Projekte"
             :images="data.designProjects"
             centered
             v-on:setProject="setCurrentProject($event)" />
@@ -39,20 +39,20 @@
         <div v-if="showContentRight"
           class="cg-flex__item cg-content__right"
           :class="{ 'cg-content--2columns': currentDrawerPosition !== 'center' }">
-          <cg-thumbnails title="Primary Tools"
+          <cg-thumbnails title="Werkzeuge"
             :images="data.codeTools"
             centered />
-          <cg-thumbnails title="Familiar with"
+          <cg-thumbnails title="Weitere"
             :images="data.codeFamiliar"
             centered />
-          <cg-listings title="Primary work"
+          <cg-listings title="Fähigkeiten"
             :list1="data.codeSkills1"
             :list2="data.codeSkills2" />
-          <cg-listings title="can also do"
+          <cg-listings title="Weitere"
             :list1="data.cCanDo1"
             :list2="data.cCanDo2" />
           <cg-thumbnails
-            title="Projects"
+            title="Projekte"
             :images="data.codeProjects"
             centered
             v-on:setProject="setCurrentProject($event)" />
@@ -64,7 +64,7 @@
     <div class="cg-content cg-flex">
 
       <div class="cg-flex__item cg-content__left">
-        <cg-thumbnails title="Worked for"
+        <cg-thumbnails title="Arbeitgeber"
           :images="data.companys"
           centered />
       </div>
@@ -72,7 +72,7 @@
       <div class="cg-flex__item cg-content__center-column"></div>
 
       <div class="cg-flex__item cg-content__right">
-        <cg-thumbnails title="Contact me"
+        <cg-thumbnails title="Kontakt"
           :images="data.contact"
           centered />
       </div>
@@ -150,6 +150,10 @@ export default {
       }
     },
   },
+  created() {
+    const html = document.documentElement // returns the html tag
+    html.setAttribute('lang', 'de')
+  }
 };
 </script>
 
@@ -175,6 +179,7 @@ export default {
 .slide-fade-right-enter, .slide-fade-right-leave-to {
   opacity: 0;
   width: 0;
+  min-width: 0;
   padding: 0;
 }
 

@@ -23,7 +23,7 @@ export default {
   },
   data() {
     return {
-      headlineLeft: 'UI & UX\nDesign',
+      headlineLeft: 'UI/UX\nDesign',
       headlineRight: 'Front\nend',
     };
   },

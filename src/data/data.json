@@ -35,25 +35,25 @@
   ],
   "designSkills1": {
     "0": "Wireframes",
-    "1": "Prototypes",
+    "1": "Prototypen",
     "2": "High-Res Mockups",
-    "3": "Documetation"
+    "3": "Dokumentation"
   },
   "designSkills2": {
     "0": "Interface Design",
     "1": "Webdesign",
-    "2": "Mobile App Design",
+    "2": "App-Design",
     "3": "Styleguides"
   },
   "dCanDo1": {
-    "0": "Web Ad Design",
-    "1": "Print Design",
-    "2": "Product Shoots",
-    "3": "Photo Editing"
+    "0": "Web-Werbemittel",
+    "1": "Druck-Werbemittel",
+    "2": "Produktfotos",
+    "3": "Fotobearbeitung"
   },
   "dCanDo2": {
-    "0": "Business Cards",
-    "1": "Printmaking"
+    "0": "Visitenkarte",
+    "1": "Druckprodukte"
   },
   "designProjects": [{
       "src": "images/real.png",
@@ -210,9 +210,9 @@
   ],
   "codeSkills1": {
     "0": "Single Page Applications (vue)",
-    "1": "Component Development (vue)",
+    "1": "Komponenten Entwicklung (vue)",
     "2": "Pattern Librarys",
-    "3": "Static Prototypes"
+    "3": "Statische Prototypen"
   },
   "codeSkills2": {
     "0": "Responsive Layouts",
