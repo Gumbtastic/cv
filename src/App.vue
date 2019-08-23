@@ -151,9 +151,9 @@ export default {
     },
   },
   created() {
-    const html = document.documentElement // returns the html tag
-    html.setAttribute('lang', 'de')
-  }
+    const html = document.documentElement; // returns the html tag
+    html.setAttribute('lang', 'de');
+  },
 };
 </script>
 
