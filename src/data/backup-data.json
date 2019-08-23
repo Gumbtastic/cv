@@ -1,0 +1,47 @@
+{
+  "codeProjects": [{
+    "src": "images/real.png",
+    "title": "real.de",
+    "project": "cProject1"
+  },
+  {
+    "src": "images/rf.png",
+    "title": "REWE Foto",
+    "project": "cProject2"
+  },
+  {
+    "src": "images/mf.png",
+    "title": "meinfoto.de",
+    "project": "cProject3"
+  },
+  {
+    "src": "images/github.png",
+    "title": "GitHub Repo",
+    "project": "cProject4"
+  }
+],
+  "cProject4": {
+    "title": "Mein GitHub Repo",
+    "text": {
+      "0": "Mein persönliches kleines Git Repo. Hier findet man Experimente und Projekte, an denen ich in meiner Freizeit arbeite. Darunter befinden sich zum einen dieser CV aber auch unfertige HTML5 Games oder Apps. Vieles davon habe ich noch nicht der Öffentlichkeit preisgegeben, aber ich arbeite daran mehr Projekte in einen Vorzeigbaren Zustand zu bekommen.",
+      "1": "Auch interessant könnte mein codepen Profil sein:"
+    },
+    "textlink": "https://codepen.io/Gumbtastic",
+    "textlinkName": "codepen.io/Gumbtastic",
+    "list": {
+      "0": "Vue.js Projekte",
+      "1": "HTML5 Games & Apps"
+    },
+    "link": "https://github.com/Gumbtastic",
+    "images": [{
+        "src": "images/placeholder_big.jpg"
+      },
+      {
+        "src": "images/placeholder_big.jpg"
+      },
+      {
+        "src": "images/placeholder_big.jpg"
+      }
+    ]
+  }
+}

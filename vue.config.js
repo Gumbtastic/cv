@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/cv/',
+  // publicPath: '/cv/',
   css: {
     loaderOptions: {
       sass: {
